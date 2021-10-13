@@ -6,4 +6,4 @@ The issues we faced generally came down to the following after deserializing the
 2. Not providing elements which are required in the xsd
 3. Adding or excluding namespace references
 
-This method is not preferred, but if you encounter an unpredictable changes to the data you receive this might help. I wanted to use a different method than xpath (I ultimately wanted to use dynamic, but started a more traditional way) so you have both paths I created.
+This method is not preferred, but if you encounter unpredictable changes to the data you receive this might help. I wanted to use a different method than xpath (I ultimately wanted to use dynamic, but started a more traditional way) so you have both paths I created.
