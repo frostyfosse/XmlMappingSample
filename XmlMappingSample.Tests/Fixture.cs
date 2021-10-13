@@ -51,13 +51,13 @@ namespace XmlMappingSample.Tests
         [Fact]
         public void TestTraditional()
         {
-            ValidateResults(MappingUtility.GetSubmissionTraditionally(GetXmlData()));
+            ValidateResults(MappingUtility.GetSubmissionTraditional(GetXmlData()));
         }
 
         [Fact]
         public void TestDynamic()
         {
-            ValidateResults(MappingUtility.GetSubmissionDynamically(GetXmlData()));
+            ValidateResults(MappingUtility.GetSubmissionDynamic(GetXmlData()));
         }
     }
 }

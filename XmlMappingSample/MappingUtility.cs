@@ -39,7 +39,7 @@ namespace XmlMappingSample
             return element;
         }
 
-        static void MapMetadataDynamically(dynamic dynMetadata, ISPSubmission submission)
+        static void MapMetadataDynamic(dynamic dynMetadata, ISPSubmission submission)
         {
             if (dynMetadata == null)
                 return;
@@ -77,17 +77,17 @@ namespace XmlMappingSample
             };
         }
 
-        static void MapReportDynamically(dynamic dynReport, ISPSubmission submission)
+        static void MapReportDynamic(dynamic dynReport, ISPSubmission submission)
         {
             if (dynReport == null)
                 return;
 
             var report = submission.Report = new Report();
 
-            MapReportHeaderDynamically(dynReport.ReportHeader, report);
+            MapReportHeaderDynamic(dynReport.ReportHeader, report);
         }
 
-        static void MapReportHeaderDynamically(dynamic dynHeader, Report report)
+        static void MapReportHeaderDynamic(dynamic dynHeader, Report report)
         {
             if (dynHeader == null)
                 return;
@@ -125,7 +125,7 @@ namespace XmlMappingSample
             return dynSubmission;
         }
 
-        public static ISPSubmission GetSubmissionDynamically(string xml)
+        public static ISPSubmission GetSubmissionDynamic(string xml)
         {
             var dynDocument = DeserializeAsDynamic(xml);
             var dynSubmission = dynDocument?.ISPSubmission;
@@ -134,8 +134,8 @@ namespace XmlMappingSample
             if (dynSubmission == null)
                 return submission;
 
-            MapMetadataDynamically(dynSubmission.MessageMetadata, submission);
-            MapReportDynamically(dynSubmission.Report, submission);
+            MapMetadataDynamic(dynSubmission.MessageMetadata, submission);
+            MapReportDynamic(dynSubmission.Report, submission);
 
             return submission;
         }
@@ -150,7 +150,7 @@ namespace XmlMappingSample
             return element.Value<T>(elementName);
         }
 
-        static void MapMetadataTraditionally(JToken submissionElement, ISPSubmission submission)
+        static void MapMetadataTraditional(JToken submissionElement, ISPSubmission submission)
         {
             if (submissionElement == null)
                 return;
@@ -180,17 +180,17 @@ namespace XmlMappingSample
             };
         }
 
-        static void MapReportTraditionally(JToken submissionElement, ISPSubmission submission)
+        static void MapReportTraditional(JToken submissionElement, ISPSubmission submission)
         {
             if (submissionElement == null)
                 return;
 
             var report = submission.Report = new Report();
 
-            MapReportHeaderTraditionally(submissionElement[References.Report.NodeName], report);
+            MapReportHeaderTraditional(submissionElement[References.Report.NodeName], report);
         }
 
-        static void MapReportHeaderTraditionally(JToken reportElement, Report report)
+        static void MapReportHeaderTraditional(JToken reportElement, Report report)
         {
             if (reportElement == null)
                 return;
@@ -221,7 +221,7 @@ namespace XmlMappingSample
             };
         }
 
-        public static ISPSubmission GetSubmissionTraditionally(string xml)
+        public static ISPSubmission GetSubmissionTraditional(string xml)
         {
             var doc = XDocument.Parse(xml);
             var json = JsonConvert.SerializeXNode(doc);
@@ -230,8 +230,8 @@ namespace XmlMappingSample
             var submission = new ISPSubmission();
             var submissionElement = element[References.Submission.NodeName];
 
-            MapMetadataTraditionally(submissionElement, submission);
-            MapReportTraditionally(submissionElement, submission);
+            MapMetadataTraditional(submissionElement, submission);
+            MapReportTraditional(submissionElement, submission);
 
             return submission;
         }
