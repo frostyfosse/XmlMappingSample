@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ispnibrs:ISPSubmission xmlns:nibrs="http://fbi.gov/cjis/nibrs/4.2" xmlns:cjis="http://fbi.gov/cjis/2.0" xmlns:cjiscodes="http://fbi.gov/cjis/cjis-codes/2.0" xmlns:i="http://release.niem.gov/niem/appinfo/3.0/" xmlns:ucr="http://release.niem.gov/niem/codes/fbi_ucr/3.2/" xmlns:j="http://release.niem.gov/niem/domains/jxdm/5.2/" xmlns:term="http://release.niem.gov/niem/localTerminology/3.0/" xmlns:nc="http://release.niem.gov/niem/niem-core/3.0/" xmlns:niem-xsd="http://release.niem.gov/niem/proxy/xsd/3.0/" xmlns:s="http://release.niem.gov/niem/structures/3.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:nibrscodes="http://fbi.gov/cjis/nibrs/nibrs-codes/4.2" xmlns:ispnibrs="http://ariesportal.com/isp/isp-nibrs/1.0" xmlns:ispcodes="http://ariesportal.com/isp/isp-nibrs-codes/1.0" xsi:schemaLocation="http://fbi.gov/cjis/nibrs/2019 ../base-xsd/nibrs/2019/nibrs.xsd http://ariesportal.com/isp/isp-nibrs/1.0 ../base-xsd/isp/1.0/isp-nibrs.xsd">
+  <cjis:MessageMetadata>
+    <cjis:MessageDateTime>2019-02-08T05:34:37</cjis:MessageDateTime>
+    <cjis:MessageIdentification>
+      <nc:IdentificationID>24A83979-9BBD-4F83-85C5-6829F783D83F</nc:IdentificationID>
+    </cjis:MessageIdentification>
+    <cjis:MessageImplementationVersion>4.2</cjis:MessageImplementationVersion>
+    <cjis:MessageSubmittingOrganization>
+      <j:OrganizationAugmentation>
+        <j:OrganizationORIIdentification>
+          <nc:IdentificationID>IN0710100</nc:IdentificationID>
+        </j:OrganizationORIIdentification>
+      </j:OrganizationAugmentation>
+    </cjis:MessageSubmittingOrganization>
+  </cjis:MessageMetadata>
+  <nibrs:Report>
+    <nibrs:ReportHeader>
+      <nibrs:NIBRSReportCategoryCode>GROUP A INCIDENT REPORT</nibrs:NIBRSReportCategoryCode>
+      <nibrs:ReportActionCategoryCode>I</nibrs:ReportActionCategoryCode>
+      <nibrs:ReportDate>
+        <nc:YearMonthDate>2019-02</nc:YearMonthDate>
+      </nibrs:ReportDate>
+      <nibrs:ReportingAgency>
+        <j:OrganizationAugmentation>
+          <j:OrganizationORIIdentification>
+            <nc:IdentificationID>IN0710100</nc:IdentificationID>
+          </j:OrganizationORIIdentification>
+        </j:OrganizationAugmentation>
+      </nibrs:ReportingAgency>
+    </nibrs:ReportHeader>
+    <nc:Incident>
+      <nc:ActivityIdentification>
+        <nc:IdentificationID>08343710121</nc:IdentificationID>
+      </nc:ActivityIdentification>
+      <nc:ActivityDate>
+        <nc:DateTime>2018-06-19T05:13:10</nc:DateTime>
+      </nc:ActivityDate>
+      <cjis:IncidentAugmentation>
+        <cjis:IncidentReportDateIndicator>false</cjis:IncidentReportDateIndicator>
+      </cjis:IncidentAugmentation>
+      <j:IncidentAugmentation>
+        <j:IncidentExceptionalClearanceCode>N</j:IncidentExceptionalClearanceCode>
+      </j:IncidentAugmentation>
+    </nc:Incident>
+    <j:Offense s:id="OffenseID_1_a8350ece-44d2-48b4-a09a-ed0eb3e13a79">
+      <nibrs:OffenseUCRCode>64B</nibrs:OffenseUCRCode>
+      <ispnibrs:Offense>
+        <ispnibrs:OffenseCode>825</ispnibrs:OffenseCode>
+        <ispnibrs:Counts>74</ispnibrs:Counts>
+      </ispnibrs:Offense>
+      <j:OffenseFactorBiasMotivationCode>NONE</j:OffenseFactorBiasMotivationCode>
+      <j:OffenseFactor>
+        <j:OffenseFactorCode>D</j:OffenseFactorCode>
+      </j:OffenseFactor>
+      <j:OffenseForce>
+        <j:ForceCategoryCode>50</j:ForceCategoryCode>
+      </j:OffenseForce>
+      <j:OffenseAttemptedIndicator>true</j:OffenseAttemptedIndicator>
+    </j:Offense>
+    <j:Offense s:id="OffenseID_2_c5d2b14b-de18-4b88-b27a-e04d51e9ea64">
+      <nibrs:OffenseUCRCode>26D</nibrs:OffenseUCRCode>
+      <ispnibrs:Offense>
+        <ispnibrs:OffenseCode>396</ispnibrs:OffenseCode>
+        <ispnibrs:MisdemeanorClass>A</ispnibrs:MisdemeanorClass>
+        <ispnibrs:Counts>1</ispnibrs:Counts>
+      </ispnibrs:Offense>
+      <j:OffenseFactorBiasMotivationCode>NONE</j:OffenseFactorBiasMotivationCode>
+      <j:OffenseFactor>
+        <j:OffenseFactorCode>C</j:OffenseFactorCode>
+      </j:OffenseFactor>
+      <j:OffenseAttemptedIndicator>false</j:OffenseAttemptedIndicator>
+    </j:Offense>
+    <nc:Location s:id="LocationID_1_a8350ece-44d2-48b4-a09a-ed0eb3e13a79">
+      <ispnibrs:OffenseLocation>
+        <ispnibrs:HouseNumber>123</ispnibrs:HouseNumber>
+        <ispnibrs:Street1>MAIN</ispnibrs:Street1>
+        <ispnibrs:CityName>Sandy</ispnibrs:CityName>
+        <ispnibrs:Zip>46544</ispnibrs:Zip>
+        <ispnibrs:Lat>1</ispnibrs:Lat>
+        <ispnibrs:Long>1</ispnibrs:Long>
+      </ispnibrs:OffenseLocation>
+      <nibrs:LocationCategoryCode>37</nibrs:LocationCategoryCode>
+    </nc:Location>
+    <nc:Location s:id="LocationID_2_c5d2b14b-de18-4b88-b27a-e04d51e9ea64">
+      <ispnibrs:OffenseLocation>
+        <ispnibrs:HouseNumber>123</ispnibrs:HouseNumber>
+        <ispnibrs:Street1>MAIN</ispnibrs:Street1>
+        <ispnibrs:CityName>Sandy</ispnibrs:CityName>
+        <ispnibrs:Zip>46544</ispnibrs:Zip>
+        <ispnibrs:Lat>1</ispnibrs:Lat>
+        <ispnibrs:Long>1</ispnibrs:Long>
+      </ispnibrs:OffenseLocation>
+      <nibrs:LocationCategoryCode>15</nibrs:LocationCategoryCode>
+    </nc:Location>
+    <nc:Item>
+      <nc:ItemStatus>
+        <cjis:ItemStatusCode>STOLEN</cjis:ItemStatusCode>
+      </nc:ItemStatus>
+      <nc:ItemValue>
+        <nc:ItemValueAmount>
+          <nc:Amount>572</nc:Amount>
+        </nc:ItemValueAmount>
+      </nc:ItemValue>
+      <j:ItemCategoryNIBRSPropertyCategoryCode>72</j:ItemCategoryNIBRSPropertyCategoryCode>
+    </nc:Item>
+    <nc:Item>
+      <nc:ItemStatus>
+        <cjis:ItemStatusCode>STOLEN</cjis:ItemStatusCode>
+      </nc:ItemStatus>
+      <nc:ItemValue>
+        <nc:ItemValueAmount>
+          <nc:Amount>392</nc:Amount>
+        </nc:ItemValueAmount>
+      </nc:ItemValue>
+      <j:ItemCategoryNIBRSPropertyCategoryCode>29</j:ItemCategoryNIBRSPropertyCategoryCode>
+    </nc:Item>
+    <nc:Item>
+      <nc:ItemStatus>
+        <cjis:ItemStatusCode>STOLEN</cjis:ItemStatusCode>
+      </nc:ItemStatus>
+      <nc:ItemValue>
+        <nc:ItemValueAmount>
+          <nc:Amount>313</nc:Amount>
+        </nc:ItemValueAmount>
+      </nc:ItemValue>
+      <j:ItemCategoryNIBRSPropertyCategoryCode>74</j:ItemCategoryNIBRSPropertyCategoryCode>
+    </nc:Item>
+    <nc:Item>
+      <nc:ItemStatus>
+        <cjis:ItemStatusCode>STOLEN</cjis:ItemStatusCode>
+      </nc:ItemStatus>
+      <nc:ItemValue>
+        <nc:ItemValueAmount>
+          <nc:Amount>282</nc:Amount>
+        </nc:ItemValueAmount>
+      </nc:ItemValue>
+      <j:ItemCategoryNIBRSPropertyCategoryCode>78</j:ItemCategoryNIBRSPropertyCategoryCode>
+    </nc:Item>
+    <nc:Item>
+      <nc:ItemStatus>
+        <cjis:ItemStatusCode>STOLEN</cjis:ItemStatusCode>
+      </nc:ItemStatus>
+      <nc:ItemValue>
+        <nc:ItemValueAmount>
+          <nc:Amount>91</nc:Amount>
+        </nc:ItemValueAmount>
+      </nc:ItemValue>
+      <j:ItemCategoryNIBRSPropertyCategoryCode>25</j:ItemCategoryNIBRSPropertyCategoryCode>
+    </nc:Item>
+    <nc:Person s:id="PersonVictimID_1_6ff1bd52-3d5e-4f04-a42e-dcb6e595f412">
+      <nc:PersonAgeMeasure>
+        <nc:MeasureIntegerValue>89</nc:MeasureIntegerValue>
+      </nc:PersonAgeMeasure>
+      <j:PersonEthnicityCode>N</j:PersonEthnicityCode>
+      <j:PersonRaceNDExCode>W</j:PersonRaceNDExCode>
+      <j:PersonResidentCode>N</j:PersonResidentCode>
+      <j:PersonSexCode>M</j:PersonSexCode>
+    </nc:Person>
+    <nc:Person s:id="PersonVictimID_2_f7f2a241-6db6-44fe-9dcd-bf2dee54f649">
+      <nc:PersonAgeMeasure>
+        <nc:MeasureIntegerValue>81</nc:MeasureIntegerValue>
+      </nc:PersonAgeMeasure>
+      <j:PersonEthnicityCode>N</j:PersonEthnicityCode>
+      <j:PersonRaceNDExCode>I</j:PersonRaceNDExCode>
+      <j:PersonResidentCode>U</j:PersonResidentCode>
+      <j:PersonSexCode>F</j:PersonSexCode>
+    </nc:Person>
+    <nc:Person s:id="PersonSubjectID_1_b26b151a-e17f-4075-a2d9-00046726b55e">
+      <nc:PersonAgeMeasure>
+        <nc:MeasureIntegerRange>
+          <nc:RangeMaximumIntegerValue>24</nc:RangeMaximumIntegerValue>
+          <nc:RangeMinimumIntegerValue>23</nc:RangeMinimumIntegerValue>
+        </nc:MeasureIntegerRange>
+      </nc:PersonAgeMeasure>
+      <j:PersonEthnicityCode>N</j:PersonEthnicityCode>
+      <j:PersonRaceNDExCode>P</j:PersonRaceNDExCode>
+      <j:PersonResidentCode>R</j:PersonResidentCode>
+      <j:PersonSexCode>M</j:PersonSexCode>
+    </nc:Person>
+    <nc:Person s:id="PersonSubjectID_2_cdd069ee-ff49-4912-a6d8-7891316fcf6d">
+      <nc:PersonAgeMeasure>
+        <nc:MeasureIntegerValue>38</nc:MeasureIntegerValue>
+      </nc:PersonAgeMeasure>
+      <j:PersonEthnicityCode>N</j:PersonEthnicityCode>
+      <j:PersonRaceNDExCode>B</j:PersonRaceNDExCode>
+      <j:PersonResidentCode>R</j:PersonResidentCode>
+      <j:PersonSexCode>M</j:PersonSexCode>
+    </nc:Person>
+    <nc:Person s:id="PersonSubjectID_3_326c6f31-5a37-4c5f-9913-a21e234ccd02">
+      <nc:PersonAgeMeasure>
+        <nc:MeasureIntegerRange>
+          <nc:RangeMaximumIntegerValue>23</nc:RangeMaximumIntegerValue>
+          <nc:RangeMinimumIntegerValue>22</nc:RangeMinimumIntegerValue>
+        </nc:MeasureIntegerRange>
+      </nc:PersonAgeMeasure>
+      <j:PersonEthnicityCode>H</j:PersonEthnicityCode>
+      <j:PersonRaceNDExCode>P</j:PersonRaceNDExCode>
+      <j:PersonSexCode>M</j:PersonSexCode>
+    </nc:Person>
+    <nc:Person s:id="PersonSubjectID_4_fb456044-9e9a-4de4-b410-b6d37895f8fa">
+      <nc:PersonAgeMeasure>
+        <nc:MeasureIntegerValue>87</nc:MeasureIntegerValue>
+      </nc:PersonAgeMeasure>
+      <j:PersonEthnicityCode>N</j:PersonEthnicityCode>
+      <j:PersonRaceNDExCode>P</j:PersonRaceNDExCode>
+      <j:PersonSexCode>M</j:PersonSexCode>
+    </nc:Person>
+    <j:Victim s:id="VictimID_1_6ff1bd52-3d5e-4f04-a42e-dcb6e595f412">
+      <nc:RoleOfPerson s:ref="PersonVictimID_1_6ff1bd52-3d5e-4f04-a42e-dcb6e595f412" />
+      <j:VictimSequenceNumberText>1</j:VictimSequenceNumberText>
+      <j:VictimInjury>
+        <j:InjuryCategoryCode>B</j:InjuryCategoryCode>
+      </j:VictimInjury>
+      <j:VictimCategoryCode>I</j:VictimCategoryCode>
+    </j:Victim>
+    <j:Victim s:id="VictimID_2_f7f2a241-6db6-44fe-9dcd-bf2dee54f649">
+      <nc:RoleOfPerson s:ref="PersonVictimID_2_f7f2a241-6db6-44fe-9dcd-bf2dee54f649" />
+      <j:VictimSequenceNumberText>2</j:VictimSequenceNumberText>
+      <j:VictimCategoryCode>I</j:VictimCategoryCode>
+    </j:Victim>
+    <j:Subject s:id="SubjectID_1_b26b151a-e17f-4075-a2d9-00046726b55e">
+      <nc:RoleOfPerson s:ref="PersonSubjectID_1_b26b151a-e17f-4075-a2d9-00046726b55e" />
+      <j:SubjectSequenceNumberText>1</j:SubjectSequenceNumberText>
+    </j:Subject>
+    <j:Subject s:id="SubjectID_2_cdd069ee-ff49-4912-a6d8-7891316fcf6d">
+      <nc:RoleOfPerson s:ref="PersonSubjectID_2_cdd069ee-ff49-4912-a6d8-7891316fcf6d" />
+      <j:SubjectSequenceNumberText>2</j:SubjectSequenceNumberText>
+    </j:Subject>
+    <j:Subject s:id="SubjectID_3_326c6f31-5a37-4c5f-9913-a21e234ccd02">
+      <nc:RoleOfPerson s:ref="PersonSubjectID_3_326c6f31-5a37-4c5f-9913-a21e234ccd02" />
+      <j:SubjectSequenceNumberText>3</j:SubjectSequenceNumberText>
+    </j:Subject>
+    <j:Subject s:id="SubjectID_4_fb456044-9e9a-4de4-b410-b6d37895f8fa">
+      <nc:RoleOfPerson s:ref="PersonSubjectID_4_fb456044-9e9a-4de4-b410-b6d37895f8fa" />
+      <j:SubjectSequenceNumberText>4</j:SubjectSequenceNumberText>
+    </j:Subject>
+    <j:Arrestee s:id="ArresteeID_1_952cf5b7-c1d3-4e41-b231-e07951731dd6">
+      <nc:RoleOfPerson s:ref="PersonSubjectID_1_b26b151a-e17f-4075-a2d9-00046726b55e" />
+      <j:ArrestSequenceID>1</j:ArrestSequenceID>
+      <j:ArresteeArmedWithCode>14A</j:ArresteeArmedWithCode>
+      <j:ArrestSubjectCountCode>N</j:ArrestSubjectCountCode>
+    </j:Arrestee>
+    <j:Arrestee s:id="ArresteeID_2_c42edd0a-f734-4036-ae4d-ed02d9f40fbe">
+      <nc:RoleOfPerson s:ref="PersonSubjectID_2_cdd069ee-ff49-4912-a6d8-7891316fcf6d" />
+      <j:ArrestSequenceID>2</j:ArrestSequenceID>
+      <j:ArresteeArmedWithCode>14A</j:ArresteeArmedWithCode>
+      <j:ArrestSubjectCountCode>C</j:ArrestSubjectCountCode>
+    </j:Arrestee>
+    <j:Arrest s:id="ArrestID_1_952cf5b7-c1d3-4e41-b231-e07951731dd6">
+      <nc:ActivityIdentification>
+        <nc:IdentificationID>64B01120</nc:IdentificationID>
+      </nc:ActivityIdentification>
+      <nc:ActivityDate>
+        <nc:Date>2018-09-22</nc:Date>
+      </nc:ActivityDate>
+      <j:ArrestCharge>
+        <nibrs:ChargeUCRCode>64B</nibrs:ChargeUCRCode>
+      </j:ArrestCharge>
+      <j:ArrestCategoryCode>O</j:ArrestCategoryCode>
+    </j:Arrest>
+    <j:Arrest s:id="ArrestID_2_c42edd0a-f734-4036-ae4d-ed02d9f40fbe">
+      <nc:ActivityIdentification>
+        <nc:IdentificationID>64B11120</nc:IdentificationID>
+      </nc:ActivityIdentification>
+      <nc:ActivityDate>
+        <nc:Date>2018-09-22</nc:Date>
+      </nc:ActivityDate>
+      <j:ArrestCharge>
+        <nibrs:ChargeUCRCode>64B</nibrs:ChargeUCRCode>
+      </j:ArrestCharge>
+      <j:ArrestCategoryCode>T</j:ArrestCategoryCode>
+    </j:Arrest>
+    <j:ArrestSubjectAssociation>
+      <nc:Activity s:ref="ArrestID_1_952cf5b7-c1d3-4e41-b231-e07951731dd6" />
+      <j:Subject s:ref="ArresteeID_1_952cf5b7-c1d3-4e41-b231-e07951731dd6" />
+    </j:ArrestSubjectAssociation>
+    <j:ArrestSubjectAssociation>
+      <nc:Activity s:ref="ArrestID_1_952cf5b7-c1d3-4e41-b231-e07951731dd6" />
+      <j:Subject s:ref="SubjectID_1_b26b151a-e17f-4075-a2d9-00046726b55e" />
+    </j:ArrestSubjectAssociation>
+    <j:ArrestSubjectAssociation>
+      <nc:Activity s:ref="ArrestID_2_c42edd0a-f734-4036-ae4d-ed02d9f40fbe" />
+      <j:Subject s:ref="ArresteeID_2_c42edd0a-f734-4036-ae4d-ed02d9f40fbe" />
+    </j:ArrestSubjectAssociation>
+    <j:ArrestSubjectAssociation>
+      <nc:Activity s:ref="ArrestID_2_c42edd0a-f734-4036-ae4d-ed02d9f40fbe" />
+      <j:Subject s:ref="SubjectID_2_cdd069ee-ff49-4912-a6d8-7891316fcf6d" />
+    </j:ArrestSubjectAssociation>
+    <j:OffenseLocationAssociation>
+      <j:Offense s:ref="OffenseID_1_a8350ece-44d2-48b4-a09a-ed0eb3e13a79" />
+      <nc:Location s:ref="LocationID_1_a8350ece-44d2-48b4-a09a-ed0eb3e13a79" />
+    </j:OffenseLocationAssociation>
+    <j:OffenseLocationAssociation>
+      <j:Offense s:ref="OffenseID_2_c5d2b14b-de18-4b88-b27a-e04d51e9ea64" />
+      <nc:Location s:ref="LocationID_2_c5d2b14b-de18-4b88-b27a-e04d51e9ea64" />
+    </j:OffenseLocationAssociation>
+    <j:OffenseVictimAssociation>
+      <j:Offense s:ref="OffenseID_1_a8350ece-44d2-48b4-a09a-ed0eb3e13a79" />
+      <j:Victim s:ref="VictimID_1_6ff1bd52-3d5e-4f04-a42e-dcb6e595f412" />
+    </j:OffenseVictimAssociation>
+    <j:OffenseVictimAssociation>
+      <j:Offense s:ref="OffenseID_2_c5d2b14b-de18-4b88-b27a-e04d51e9ea64" />
+      <j:Victim s:ref="VictimID_2_f7f2a241-6db6-44fe-9dcd-bf2dee54f649" />
+    </j:OffenseVictimAssociation>
+    <j:SubjectVictimAssociation s:id="SubjectVictimAssocSP_1_5cc8e948-94ad-49c1-85f2-ecfcf9c6bdae">
+      <j:Subject s:ref="SubjectID_3_326c6f31-5a37-4c5f-9913-a21e234ccd02" />
+      <j:Victim s:ref="VictimID_1_6ff1bd52-3d5e-4f04-a42e-dcb6e595f412" />
+      <nibrs:VictimToSubjectRelationshipCode>Family Member_In-Law</nibrs:VictimToSubjectRelationshipCode>
+    </j:SubjectVictimAssociation>
+    <j:SubjectVictimAssociation s:id="SubjectVictimAssocSP_2_2531df86-77df-4869-b9e7-8fe5bfda110c">
+      <j:Subject s:ref="SubjectID_4_fb456044-9e9a-4de4-b410-b6d37895f8fa" />
+      <j:Victim s:ref="VictimID_1_6ff1bd52-3d5e-4f04-a42e-dcb6e595f412" />
+      <nibrs:VictimToSubjectRelationshipCode>Relationship Unknown</nibrs:VictimToSubjectRelationshipCode>
+    </j:SubjectVictimAssociation>
+    <j:SubjectVictimAssociation s:id="SubjectVictimAssocSP_3_f9a1c9ea-38bf-464c-a440-765393863750">
+      <j:Subject s:ref="SubjectID_1_b26b151a-e17f-4075-a2d9-00046726b55e" />
+      <j:Victim s:ref="VictimID_1_6ff1bd52-3d5e-4f04-a42e-dcb6e595f412" />
+      <nibrs:VictimToSubjectRelationshipCode>Friend</nibrs:VictimToSubjectRelationshipCode>
+    </j:SubjectVictimAssociation>
+    <j:SubjectVictimAssociation s:id="SubjectVictimAssocSP_4_3d1434e1-d5ef-40df-96b8-fc5d66603b82">
+      <j:Subject s:ref="SubjectID_2_cdd069ee-ff49-4912-a6d8-7891316fcf6d" />
+      <j:Victim s:ref="VictimID_1_6ff1bd52-3d5e-4f04-a42e-dcb6e595f412" />
+      <nibrs:VictimToSubjectRelationshipCode>Family Member_In-Law</nibrs:VictimToSubjectRelationshipCode>
+    </j:SubjectVictimAssociation>
+  </nibrs:Report>
+</ispnibrs:ISPSubmission>
