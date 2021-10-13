@@ -8,4 +8,4 @@ The issues we faced generally came down to the following after deserializing the
 
 This method is not preferred, but if you encounter unpredictable changes to the data you receive this might help. I wanted to use a different method than xpath (I ultimately wanted to use dynamic, but started a more traditional way) so you have both paths I created.
 
-The data I'm using came from a gov spec which has a ton of xsd's and associated namespaces (The xsd's aren't included because generating the classes from the xml was sufficient). I chose this to handle the more complex cases for navigating dynamic references during the mapping process.
+The data I'm using came from a gov spec which has a ton of xsd's and associated namespaces (The xsd's aren't included because generating the classes from the xml was sufficient). I chose this to handle the more complex cases for navigating dynamic references during the mapping process. The nibrs data sample included is safe for public viewing based on the the announcement here: https://www.fbi.gov/news/stories/five-things-to-know-about-nibrs-112520
